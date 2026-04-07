@@ -1,7 +1,5 @@
 #include <Arduino.h>
-
 #include <PicoJson.h>
-
 
 void setup() {
     Serial.begin(115200);
@@ -28,6 +26,4 @@ void setup() {
     nested["baz"] = nullptr;
 }
 
-void loop() {
-    delay(1000);
-}
+void loop() { delay(1000); }
